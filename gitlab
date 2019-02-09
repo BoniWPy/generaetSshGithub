@@ -1,0 +1,4 @@
+#!/bin/bash
+echo "Masukan Email gitlab nya coy :"
+read $email
+ssh-keygen -o -t rsa -b 4096 -C "$email"
