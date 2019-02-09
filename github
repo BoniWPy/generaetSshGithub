@@ -1,0 +1,4 @@
+#!/bin/bash
+echo "Masukan Email github nya coy :"
+read $email
+ssh-keygen -t rsa -b 4096 -C "$email"
